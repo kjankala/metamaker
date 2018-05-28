@@ -161,7 +161,7 @@ class Main_Panel:
         #Main panel name
         main.title("METAMAKER, Version: "+version)
         #Main panel default size
-        main.geometry("870x540")
+        main.geometry("870x560")
 
         txt_var=dict(dict_main)
         txt_ent=dict(dict_main)
@@ -233,21 +233,21 @@ class Main_Panel:
         txt_var['sb_description']=st.ScrolledText(main,width=sb_wid,height=sb_hgt,borderwidth=2)
         txt_var['sb_description'].grid(column=col2,row=1,padx=(50,10),pady=(25,0),sticky='NW')
         
-        tk.Label(main,text="Participators").grid(column=col2,row=1,padx=(50,10),pady=(100,0),sticky='NW')
+        tk.Label(main,text="Participators").grid(column=col2,row=1,padx=(50,10),pady=(105,0),sticky='NW')
         txt_var['sb_participators']=st.ScrolledText(main,width=sb_wid,height=sb_hgt,borderwidth=2)
-        txt_var['sb_participators'].grid(column=col2,row=1,padx=(50,10),pady=(125,0),sticky='NW')
+        txt_var['sb_participators'].grid(column=col2,row=1,padx=(50,10),pady=(130,0),sticky='NW')
         
-        tk.Label(main,text="Instrument description").grid(column=col2,row=1,padx=(50,10),pady=(200,0),sticky='NW')
+        tk.Label(main,text="Instrument description").grid(column=col2,row=1,padx=(50,10),pady=(210,0),sticky='NW')
         txt_var['sb_instrument']=st.ScrolledText(main,width=sb_wid,height=sb_hgt,borderwidth=2)
-        txt_var['sb_instrument'].grid(column=col2,row=1,padx=(50,10),pady=(225,0),sticky='NW')
+        txt_var['sb_instrument'].grid(column=col2,row=1,padx=(50,10),pady=(235,0),sticky='NW')
         
-        tk.Label(main,text="Notes").grid(column=col2,row=1,padx=(50,10),pady=(300,0),sticky='NW')
+        tk.Label(main,text="Notes").grid(column=col2,row=1,padx=(50,10),pady=(315,0),sticky='NW')
         txt_var['sb_notes']=st.ScrolledText(main,width=sb_wid,height=sb_hgt,borderwidth=2)
-        txt_var['sb_notes'].grid(column=col2,row=1,padx=(50,10),pady=(325,0),sticky='NW')
+        txt_var['sb_notes'].grid(column=col2,row=1,padx=(50,10),pady=(340,0),sticky='NW')
         
-        tk.Label(main,text="Tags / Keywords").grid(column=col2,row=1,padx=(50,10),pady=(400,0),sticky='NW')
+        tk.Label(main,text="Tags / Keywords").grid(column=col2,row=1,padx=(50,10),pady=(420,0),sticky='NW')
         txt_var['sb_tags']=st.ScrolledText(main,width=sb_wid,height=sb_hgt-1,borderwidth=2)
-        txt_var['sb_tags'].grid(column=col2,row=1,padx=(50,10),pady=(425,0),sticky='NW')
+        txt_var['sb_tags'].grid(column=col2,row=1,padx=(50,10),pady=(445,0),sticky='NW')
         ##Scrollboxes end##
 
         ##Buttons start##
