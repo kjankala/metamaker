@@ -1,0 +1,66 @@
+
+   - Metadata file created using METAMAKER, Version: Beta 0.9 -
+
+Metadata name        : Test data
+Date                 : 2018-05-09
+Measurement location : Oulu, FY255-2
+Contact person       : Kari Jänkälä
+Email                : kari.jankala@oulu.fi
+Logbook file name    : Logbook.zip
+Logbook location     : www.oulu.fi/logbooks
+Raw data location    : www.oulu.fi/data
+Raw data PID         : 123456789
+Number of datasets   : 2
+----Participators----
+Kari Jänkälä
+----Data description-
+This is just some test data
+including three datasets.
+----Instrument-------
+HP laptop, running Ubunutu 18.04
+Program written in python2
+----Notes------------
+The program uses non-standard Python2 packages:
+Tkinter
+reportlab
+Change this program to python3 someday
+----Tags / Keywords--
+metadata, test, python
+
+#### -DATASET- ####
+Dataset name         : Dataset1
+Dataset files        : File1.txt-File10.txt
+Spectrometer         : HP850G
+Is data publishable  : No
+----Sample description-----
+General test data, made from random words
+----Experiment settings----
+Linux running fine. 
+This test done using executable made by:
+pyinstaller
+----Experiment description-
+
+----Notes / Problems-------
+None, so far
+
+#### -DATASET- ####
+Dataset name         : Dataset2
+Dataset files        : File11.txt-File20.txt
+Spectrometer         : HP850G
+Is data publishable  : No
+----Sample description-----
+More general test data, made from random words
+----Experiment settings----
+Linux running fine.
+----Experiment description-
+Testing dataset for distribution:
+1
+2
+3
+4
+5
+6
+----Notes / Problems-------
+None, so far
+
+###################
